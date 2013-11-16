@@ -1,0 +1,234 @@
+body{
+	  		margin: 0;
+	  		font-family: 'Open Sans', sans-serif;
+  		}
+  		
+  		section{
+	  		width: 100%;
+	  		display: block;
+  		}
+  	
+  		.intro{
+	  		height: 460px;
+	  		background: url('../img/bg.jpg') no-repeat;
+	  		background-size: 100% 100%;
+	  		display: block;
+	  		padding-top: 48px;
+	  		width: 100%;
+  		}
+  		
+  		.logo{
+	  		display: block;
+	  		margin: 0 auto;
+	  		width: 130px;
+	  		height: 130px;
+  		}
+  		
+  		.brand, .slogan{
+			font-family: 'Raleway', sans-serif;
+			color: white;
+			font-weight: 100;
+			text-align: center;
+			font-size: 18px;
+			margin-top: -38px;
+  		}
+  		
+  		.brand{
+			font-size: 50px;
+			margin-top: 10px;
+  		}
+  		
+  		.demo-button{
+	  		width: 192px;
+			padding: 12px 12px;
+			color: #009119;
+			background: #6ff467; /* Old browsers */
+			background: linear-gradient(to bottom, #6ff467 0%,#5fd058 100%); /* W3C */
+			text-decoration: none;
+			margin: 0 auto;
+			display: block;
+			font-size: 17px;
+			text-align: center;
+			margin-top: 44px;
+			border-radius: 4px;
+			font-weight: 600;
+			transition: all .2s;
+			-webkit-transition: all .2s;
+  		}
+  		
+  		.sub-button{
+	  		padding: 6px 12px;
+			color: #009119;
+			background: #6ff467; /* Old browsers */
+			background: linear-gradient(to bottom, #6ff467 0%,#5fd058 100%); /* W3C */
+			text-decoration: none;
+			margin: 0 auto;
+			text-align: center;
+			border-radius: 4px;
+			font-weight: 600;
+			transition: all .2s;
+			-webkit-transition: all .2s;
+			display: inline-block;
+  		}
+  		
+  		.sub-button:hover{
+	  		color: white;
+	  		text-decoration: none;
+  		}
+  		
+  		.sub-button:active{
+			  		transform: scale(.94);
+		    -webkit-transform: scale(.94); 		
+  		}
+  		
+  		
+  		.steps{
+	  		background: #f1f1f1;
+	  		height: auto;
+	  		padding-top: 60px;
+  		}
+  		
+  		.press{
+	  		background: white;
+	  		height: auto;
+	  		padding-top: 60px
+  		}
+  		
+  		.demo-button:hover{
+	  		color: white;
+	  		text-decoration: none;
+  		}
+  		
+  		.demo-button:active{
+			  		transform: scale(.94);
+		    -webkit-transform: scale(.94); 		
+  		}
+  		
+  		.step h2, .press h2{
+	  		font-weight: normal;
+	  		font-size: 24px;
+	  		text-align: center;
+  		}
+  		
+  		.press h2{
+	  		margin-bottom: 80px;
+	  		max-width: 200px;
+			margin: 0 auto;
+			margin-bottom: 40px;
+			border-bottom: 1px solid #dedede;
+			padding-bottom: 20px;
+  		}
+  		
+  		.step p{
+	  		font-size: 18px;
+	  		text-align: center;
+  		}
+  		
+  		.step img{
+			display: block;
+			width: 200px;
+			margin: 40px auto;
+			transition: all .3s;
+			-webkit-transition: all .3s;	  		
+  		}
+  		
+  		.step:hover img{
+	  		transform: scale(1.05);
+	  		-webkit-transform: scale(1.05);
+  		}
+  		
+  		.press img{
+	  		max-width: 100%;
+	  		margin-bottom: 120px;
+  		}
+  		
+  		.x{
+	  		width: 44%;
+			margin: 0 auto;
+			display: block;
+			margin-top: 50px;
+  		}
+  		
+  		.promo img{
+	  		cursor: pointer;
+	  		transition: all .2s;
+	  		-webkit-transition: all .2s;
+  		}
+  		
+  		.promo img:hover{
+	  		cursor: pointer;
+	  		transform: scale(1.05);
+	  		-webkit-transform: scale(1.05);
+	  		opacity: 0.5;
+  		}
+  		
+  		.contact{
+	  		background: #1E1E1E;
+	  		color: white;
+	  		text-align: center;
+	  		min-height: 300px;
+	  		padding-top: 30px;
+  		}
+  		
+  		.footer{
+	  		border-top: 1px solid #4F5052;
+	  		background: #1e1e1e;
+	  		min-height: 80px;
+	  		color: white;
+  		}
+  		
+  		.contact h2{
+	  		font-size: 36px;
+	  		font-weight: normal;
+  		}
+  		
+  		.contact h3{
+	  		font-weight: 100;
+			font-size: 30px;
+			font-family: Open-Sans, sans-serif;
+			margin-top: -10px;
+  		}
+  		
+  		.emailbox{
+	  		padding: 6px;
+			border-radius: 4px;
+			border: 0;
+			background: #4F5052;
+			color: white;
+			outline: none;
+  		}
+  		
+  		i{
+	  		border: 1px solid #f1f1f1;
+	  		border-radius: 100%;
+	  		margin: 28px 10px;
+	  		width: 0;
+	  		height: 0;
+	  		text-align: center;
+	  		cursor: pointer;
+	  		transition: all .2s;
+	  		-webkit-transition: all .2s;
+  		}
+  		
+  		i:hover{
+	  		color: #6ff467;
+	  		border: 1px solid #6ff467;
+  		}
+  		
+  		.righty{
+	  		float: right;
+  		}
+  		
+  		@media (max-width: 767px){
+	  		.hidden-xs{
+		  		display: none;
+	  		}
+	  		
+	  		.footer{
+		  		text-align: center;
+	  		}
+	  		
+	  		.righty{
+		  		float: none;
+	  		}
+  		}
