@@ -1,0 +1,330 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <title>AppSeed</title>
+      <meta charset="UTF-8"/>
+  	<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/grid.css">
+  	<link href='http://fonts.googleapis.com/css?family=Raleway|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  	<link rel="icon" type="image/png" href="img/logo.png">
+  	<script type="text/javascript" src="js/jQuery.js"></script>
+  	<!-- ie shiv -->
+  	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+  	
+  	<style>
+  		body{
+	  		margin: 0;
+	  		font-family: 'Open Sans', sans-serif;
+  		}
+  		
+  		section{
+	  		width: 100%;
+	  		display: block;
+  		}
+  	
+  		.intro{
+	  		height: 550px;
+	  		background: url('img/bg.jpg') no-repeat;
+	  		background-size: 100% 100%;
+	  		display: block;
+	  		padding-top: 48px;
+	  		width: 100%;
+  		}
+  		
+  		.logo{
+	  		display: block;
+	  		margin: 0 auto;
+	  		width: 130px;
+	  		height: 130px;
+  		}
+  		
+  		.brand, .slogan{
+	  		font-family: 'Raleway', sans-serif;
+	  		color: white;
+			font-weight: lighter;
+			text-align: center;
+  		}
+  		
+  		.brand{
+			font-size: 50px;
+			margin-top: 10px;
+  		}
+  		
+  		.demo-button{
+	  		width: 192px;
+			padding: 12px 12px;
+			color: #009119;
+			background: #6ff467; /* Old browsers */
+			background: linear-gradient(to bottom, #6ff467 0%,#5fd058 100%); /* W3C */
+			text-decoration: none;
+			margin: 0 auto;
+			display: block;
+			font-size: 17px;
+			text-align: center;
+			margin-top: 44px;
+			border-radius: 4px;
+			font-weight: 600;
+			transition: all .2s;
+			-webkit-transition: all .2s;
+  		}
+  		
+  		.sub-button{
+	  		padding: 6px 12px;
+			color: #009119;
+			background: #6ff467; /* Old browsers */
+			background: linear-gradient(to bottom, #6ff467 0%,#5fd058 100%); /* W3C */
+			text-decoration: none;
+			margin: 0 auto;
+			text-align: center;
+			border-radius: 4px;
+			font-weight: 600;
+			transition: all .2s;
+			-webkit-transition: all .2s;
+			display: inline-block;
+  		}
+  		
+  		.sub-button:hover{
+	  		color: white;
+	  		text-decoration: none;
+  		}
+  		
+  		.sub-button:active{
+			  		transform: scale(.94);
+		    -webkit-transform: scale(.94); 		
+  		}
+  		
+  		
+  		.steps{
+	  		background: #f1f1f1;
+	  		height: auto;
+	  		padding-top: 60px;
+  		}
+  		
+  		.press{
+	  		background: white;
+	  		height: auto;
+	  		padding-top: 60px
+  		}
+  		
+  		.demo-button:hover{
+	  		color: white;
+	  		text-decoration: none;
+  		}
+  		
+  		.demo-button:active{
+			  		transform: scale(.94);
+		    -webkit-transform: scale(.94); 		
+  		}
+  		
+  		.step h2, .press h2{
+	  		font-weight: normal;
+	  		font-size: 24px;
+	  		text-align: center;
+  		}
+  		
+  		.press h2{
+	  		margin-bottom: 80px;
+	  		max-width: 200px;
+			margin: 0 auto;
+			margin-bottom: 40px;
+			border-bottom: 1px solid #dedede;
+			padding-bottom: 20px;
+  		}
+  		
+  		.step p{
+	  		font-size: 18px;
+	  		text-align: center;
+  		}
+  		
+  		.step img{
+			display: block;
+			width: 200px;
+			margin: 40px auto;
+			transition: all .3s;
+			-webkit-transition: all .3s;	  		
+  		}
+  		
+  		.step:hover img{
+	  		transform: scale(1.05);
+	  		-webkit-transform: scale(1.05);
+  		}
+  		
+  		.press img{
+	  		max-width: 100%;
+	  		margin-bottom: 120px;
+  		}
+  		
+  		.x{
+	  		width: 44%;
+			margin: 0 auto;
+			display: block;
+			margin-top: 50px;
+  		}
+  		
+  		.promo img{
+	  		cursor: pointer;
+	  		transition: all .2s;
+	  		-webkit-transition: all .2s;
+  		}
+  		
+  		.promo img:hover{
+	  		cursor: pointer;
+	  		transform: scale(1.05);
+	  		-webkit-transform: scale(1.05);
+	  		opacity: 0.5;
+  		}
+  		
+  		.contact{
+	  		background: #1E1E1E;
+	  		color: white;
+	  		text-align: center;
+	  		min-height: 300px;
+	  		padding-top: 40px;
+  		}
+  		
+  		.footer{
+	  		border-top: 1px solid #4F5052;
+	  		background: #1e1e1e;
+	  		min-height: 80px;
+	  		color: white;
+  		}
+  		
+  		.contact h2{
+	  		font-size: 36px;
+	  		font-weight: normal;
+  		}
+  		
+  		.contact h3{
+	  		font-weight: 100;
+			font-size: 30px;
+			font-family: Open-Sans, sans-serif;
+			margin-top: -10px;
+  		}
+  		
+  		.emailbox{
+	  		padding: 6px;
+			border-radius: 4px;
+			border: 0;
+			background: #4F5052;
+			color: white;
+			outline: none;
+  		}
+  		
+  		i{
+	  		border: 1px solid #f1f1f1;
+	  		border-radius: 100%;
+	  		margin: 28px 10px;
+	  		width: 0;
+	  		height: 0;
+	  		text-align: center;
+	  		cursor: pointer;
+	  		transition: all .2s;
+	  		-webkit-transition: all .2s;
+  		}
+  		
+  		i:hover{
+	  		color: #6ff467;
+	  		border: 1px solid #6ff467;
+  		}
+  		
+  		.righty{
+	  		float: right;
+  		}
+  		
+  		@media (max-width: 767px){
+	  		.hidden-xs{
+		  		display: none;
+	  		}
+	  		
+	  		.footer{
+		  		text-align: center;
+	  		}
+	  		
+	  		.righty{
+		  		float: none;
+	  		}
+  		}
+  	</style>
+  </head>
+  
+  <body>
+  	<header class="intro">
+  		<img src="img/logo.png" class="logo" />
+  		<h1 class="brand">AppSeed</h1>
+  		<h2 class="slogan">ACCELERATE YOUR CREATIVE PROCESS</h2>
+  		<a class="demo-button" href="#demo">Play Demo</a>
+  	</header>
+  	
+  	<section class="steps">
+  		<div class="container" style="margin-bottom:40px;">
+  			<div class="row">
+	  			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 step">
+	  				<h2>Draw</h2>
+	  				<img src="img/pencil.png" />
+	  				<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+	  			</div>
+	  			
+	  			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 step" style="border-left: 1px solid #dedede; border-right: 1px solid #dedede;">
+	  				<h2>Capture</h2>
+	  				<img src="img/camera.png" />
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	  			</div>
+	  			
+	  			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 step">
+	  				<h2>Prototype</h2>
+	  				<img src="img/prototype.png" />
+	  				<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+	  			</div>
+  			</div>
+  		</div>
+  	</section>
+  	
+  	<section class="press hidden-xs">
+  		<div class="container">
+  			<h2>Featured On</h2>
+  			<div class="row">
+  				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 promo">
+  					<a href="#wiredarticle"><img src="img/wired.png" /></a>
+  					<a href="#techcruncharticle"><img src="img/crunch.png" /></a>
+  				</div>
+  				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+	  				<img src="img/x.png" class="x" />
+  				</div>
+  				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 promo">
+  					<a href="#fastcoarticle"><img src="img/fast.png" /></a>
+  					<a href="#forbesarticle"><img src="img/forbes.png" style="max-width:70%;"/></a>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+  	
+  	<section class="contact">
+  		<div class="container">
+  			<div class="row">
+  				<h2><span style="font-family: 'Raleway', sans-serif;">AppSeed</span> News</h2>
+  				<h3>be the first to know when we launch</h3>
+  				<input type="text" placeholder="EMAIL ADDRESS" class="emailbox"> <a href="#subscribe" class="sub-button">SUBSCRIBE</a>
+  			</div>
+  		</div>
+  	</section>
+  	
+  	<section class="footer">
+  		<div class="container">
+  			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+  			<div style="margin-top:30px;">Copyright &copy; 2013 AppSeed</div>
+  			</div>
+  			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 hidden-xs">
+  			</div>
+  			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+  			<div class="righty"><i class="fa fa-facebook" style="padding:6px 14px 18px 9px;"></i><i class="fa fa-twitter" style="padding:6px 18px 18px 6px;"></i><i class="fa fa-rss" style="padding:6px 17px 19px 7px;"></i><i class="fa fa-google-plus" style="padding:6px 17px 19px 7px;"></i></div>
+  			</div>
+  		</div>
+  	</section>
+  	
+  
+  
+  </body>
+</html>
